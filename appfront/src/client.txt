@@ -1,4 +1,4 @@
 Client ID: 
-clientid
+CLIENT_ID
 Client Secret: 
-clientsecret
+CLIENT_SECRET

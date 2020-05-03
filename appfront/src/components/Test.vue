@@ -14,7 +14,7 @@
 <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
 <script>
 export default {
-  name: 'ConstantTop',
+  name: 'Test',
   mounted() {
     gapi.signin2.render('my-signin2',{
       onsuccess : this.onSuccess
@@ -39,16 +39,4 @@ export default {
 </script>
 
 <style scoped>
-  .constanttop {
-    background: pink;
-    color: white;
-    width: 100%;
-  }
-  li {
-    list-style-type: none;
-    display: block;
-  }
-  img {
-    height:100px;
-  }
 </style>
